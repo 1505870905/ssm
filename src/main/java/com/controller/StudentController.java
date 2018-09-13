@@ -29,6 +29,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @Controller
 @RequestMapping("/student")
+//dakjg
 public class StudentController {
     @Autowired
     StudentService studentService;

@@ -23,7 +23,7 @@ public class LoginController {
     public String login(int id, String name, String password){
         User user = loginService.findById(id);
         Gson gson = new Gson();
-        String json = gson.toJson(user);//7879879845646465
+        String json = gson.toJson(user);//787987946465
         return json;
     }
     @RequestMapping("/login.do")
