@@ -29,7 +29,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @Controller
 @RequestMapping("/student")
-//dakjg
+//dak
 public class StudentController {
     @Autowired
     StudentService studentService;
