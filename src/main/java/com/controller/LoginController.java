@@ -26,6 +26,7 @@ public class LoginController {
         String json = gson.toJson(user);//787987946465
         return json;
     }
+    //sdgfdsf
     @RequestMapping("/login.do")
     public ModelAndView login1(String name, String password, ModelAndView mav, HttpServletRequest request) {
         if (StringUtils.isEmpty(name) || StringUtils.isEmpty(password)) {
